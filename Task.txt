@@ -1,0 +1,6 @@
+Create a list of your 3 favorite fruits and print each fruit on a separate line.
+
+Turn in:
+
+Directory: favorite_fruits
+File: main.py
