@@ -3,7 +3,7 @@ import sys
 
 def test_output_format():
     # Run the student's script
-    result = subprocess.run([sys.executable, "main.py"], capture_output=True, text=True, check=True)
+    result = subprocess.run([sys.executable, "favorite_fruits/main.py"], capture_output=True, text=True, check=True)
     output_lines = result.stdout.strip().split("\n")
 
     # Check there are exactly 3 lines
